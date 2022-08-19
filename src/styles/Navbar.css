@@ -1,0 +1,29 @@
+.navbar{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(235, 195, 64);
+    font-weight:500;
+    width: 100%;
+}
+
+.links{
+    display: flex;
+    justify-content:left;  
+    align-items: center;
+}
+
+.links a{
+    text-decoration: none;
+    margin: 20px;
+    color: rgb(64, 65, 143);
+}
+
+
+@media only screen and (max-width: 900px){
+    .navbar a {
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    
+}

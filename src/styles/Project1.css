@@ -1,0 +1,109 @@
+.projects{
+    background-color: #f5f6f7;
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:Poppins,sans-serif;
+    
+}
+
+.projectItemCard{
+    /* display: flex;
+    margin: 10px 80px 10px 80px;  /* top | right | bottom | left */   
+    align-items: center;
+    background-color:#fff;
+    border-radius: 1em;
+    box-shadow: 0 2px 4pxrgb(0 0 0/10%);
+    display: flex;
+    justify-content: space-between;
+    margin: 2em auto;
+    max-width: 950px;
+    padding: 2em;
+    text-align: center;
+    width: 95%;
+} 
+
+.projectItemCard:hover{
+     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+     transition: 0.3s ease-in;
+     /* cursor: pointer;      */
+}
+
+.projectDetails{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.projectItemImage{
+    width:30%;
+    border-radius: 20px;
+    padding:0.4em;
+    padding-bottom: 10px;    
+}
+
+.projectName{
+    font-style: oblique;
+    font-weight: 550;
+}
+
+.projectDescription{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; 
+    line-height: 1.5;
+    letter-spacing: 1.5;
+    font-weight: 500;
+}
+
+
+.projectTechnologies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    list-style: none;
+}
+.projectTechnologies li{
+    background-color: rgba(44,93,206,0.1);
+    border-radius: 5em;
+    color: #185dc7;
+    font-size: .9rem;
+    font-weight: 600;
+    margin: 0.3em 0.2em;
+    padding: 0.6em;
+}
+
+.projectLinks{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.projectLinks li{
+    background-color: rgba(44,93,206,0.1);
+    border-radius: 5em;
+    margin: 0.3em 0.2em;
+    padding: 0.4em 0.6em;
+}
+
+.projectLinks li:hover{
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    background-color: rgba(8, 72, 223, 0.1);
+    transition: 0.3s ease-in;
+
+}
+
