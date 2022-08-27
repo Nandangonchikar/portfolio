@@ -18,7 +18,7 @@ function Projects() {
 
   return (
     <div className='projects'>
-        <h1> PROJECTS</h1>
+        <h1 className='section-title'> PROJECTS</h1>
           <div className='projectList'> 
               {projectsElement}
           </div>

@@ -33,14 +33,11 @@ function Home() {
             </li>
           </ol>
       </div>
-
-      {/* <div className='skills'>
-         <h2>I have experience with these technologies</h2>
-         <div className='skillsGrid'>
-             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="React" title="React"/>
-         </div> 
-      </div> */}
-
+      <div className='TechStack-container'>
+        <div className='skill_container'>
+         
+        </div>
+      </div>
     </div>
   )
 }

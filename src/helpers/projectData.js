@@ -19,7 +19,7 @@ const projectData = [
         image: CleanFolio,
         description:'A simple portfolio template for developers',
         technologiesUsed: ['React', 'React-router', 'JavaScript', 'HTML','CSS'],
-        sourcecode: 'https://github.com/Nandangonchikar/CleanFolio',
+        sourcecode: 'https://github.com/Nandangonchikar/portfolio',
         Preview: ''
     },
 

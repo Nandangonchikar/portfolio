@@ -9,7 +9,19 @@
     font-family:Poppins,sans-serif;
     
 }
-
+.section-title{
+    margin-bottom: 1.5em;
+    padding-top: 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.section-title::after{
+    border-bottom: 0.2em solid rgb(32, 62, 196);
+    content: "";
+    display: block;
+    margin: 0.3em auto 0;
+    width: 1.5em;
+}
 .projectItemCard{
     /* display: flex;
     margin: 10px 80px 10px 80px;  /* top | right | bottom | left */   

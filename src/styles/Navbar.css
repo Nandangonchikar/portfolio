@@ -3,6 +3,7 @@
     background-color: rgb(235, 195, 64);
     font-weight:500;
     width: 100%;
+    background-image: linear-gradient(to right, #ff9966, #ff5e62);
 }
 
 .links{
