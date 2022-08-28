@@ -11,6 +11,8 @@
 # production
 /build
 
+/favicon_io
+
 # misc
 .DS_Store
 .env.local
