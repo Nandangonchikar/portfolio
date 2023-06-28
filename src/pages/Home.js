@@ -35,7 +35,9 @@ function Home() {
       </div>
       <div className='TechStack-container'>
         <div className='skill_container'>
-         
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"  height="100"alt="xyx"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"  height="100"alt="xyx"/>
+
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import wordayImage from '../assets/wordayImage.png'
+import SocialNetAPI from '../assets/SocialNetAPI.jpg'
 import CleanFolio from '../assets/CleanFolio.png'
 import TwitterStreaming from '../assets/TwitterStreaming.png'
 import TravelJournal from '../assets/TravelJournal.png'
@@ -13,6 +14,14 @@ const projectData = [
         technologiesUsed: ['JavaScript', 'HTML', 'CSS','wordnik'],
         sourcecode: 'https://github.com/Nandangonchikar/Worday---Word-of-the-day',
         Preview: 'https://chrome.google.com/webstore/detail/worday-word-of-the-day/fhmkkcmbpnbgkdeamhlagkkglhiphgep'
+    },
+    {
+        name: 'SocialNet-API',
+        image: SocialNetAPI,
+        description:'Developed and deployed a robust RestAPI client for a social media platform using Python and Postgres, utilizing technologies such as Postman, FastAPI, and Docker. Implemented essential features like user registration,authentication, upvoting, and downvoting. Successfully deployed the application on Heroku, ensuring seamless functionality and performance for users',
+        technologiesUsed: ['Python','fastAPI', 'Postgres', 'Docker','Heroku','Github','CI/CD'],
+        sourcecode: 'https://github.com/Nandangonchikar/SocialNet-API',
+        Preview: 'https://hub.docker.com/repository/docker/nandangonchikar/socialnet_api/general'
     },
     {
         name: 'Portfolio',
