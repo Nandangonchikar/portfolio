@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Home.css'
+import Skills from './Skills.js'
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import GithubIcon from "@mui/icons-material/GitHub";
@@ -16,7 +17,8 @@ function Home() {
               <GithubIcon />
           </div>   
       </div>
-      <div className='skills'>
+      <Skills />
+      {/* <div className='skills'>
           <h1> Skills</h1>
           <ol className='list'>
             <li className='item'>
@@ -32,14 +34,14 @@ function Home() {
               <span className='skills-web'>HTML,CSS, React, NodeJS, Bootstrap</span>
             </li>
           </ol>
-      </div>
-      <div className='TechStack-container'>
+      </div> */}
+      {/* <div className='TechStack-container'>
         <div className='skill_container'>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"  height="100"alt="xyx"/>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"  height="100"alt="xyx"/>
 
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
